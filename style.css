@@ -1,4 +1,91 @@
-body {
+html, body {
     background: #FFFFFF;
     margin: 0;
+    height:100%;
   } 
+  .container {
+    position:relative;
+    width:100%;
+    margin:0 auto;
+    height:100%;
+  }
+
+  .navBar {
+    position:relative;
+    top: 2%; 
+  }
+
+  a:link {
+    text-decoration: none;
+    color:black;
+  }
+
+  a:hover {
+    text-decoration:underline;
+  }
+
+
+  ul {
+    position:relative;
+    display:flex;
+    flex-direction:row-reverse;
+    list-style: none; 
+  }
+   li {
+    font-family: Roboto ,Segoe UI, Tahoma, sans-serif, Arial, Helvetica;
+    font-size:85.2%;
+  }
+
+  li:first-child{
+    margin-right: 5%;
+  }
+
+  li:nth-child(2) {
+    margin-right:3%;
+  }
+
+  #logo {
+    position:relative;
+    top:22%;
+    margin-right:auto;
+    margin-right:auto;
+  }
+
+ .logo {
+    display:block;
+    margin:auto;
+  }
+
+  .search {
+    position:relative;
+    top:27%;
+    
+  }
+
+  .in_field {
+    display:block;
+    width:50%;
+    height:3em;
+    text-align: center;
+    padding-left:4em;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 2em; 
+    font-size: 1em; 
+    border: 1px solid lightgray; 
+  }
+
+  .submit{
+    display:block;
+    margin-top:3em;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+
+
+
+ 
+  
+  
+  
