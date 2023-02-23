@@ -1,36 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Search</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <nav class="navBar">
-            <ul >
-                <li><a href="advanced_search">Advanced Search</a></li>
-                <li><a href="image_search.html">Images</a></li>
-            </ul>
-        </nav>
-        <div id="logo">
-            <img  class="logo" src="Images\google_logo.svg" alt="Google Logo">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navBar">
+                <ul class="navigation">
+                    <li><a href="advanced_search">Advanced Search</a></li>
+                    <li><a href="image_search.html">Images</a></li>
+                </ul>
+            </nav>
+            <div id="logo">
+                <img  class="logo" src="Images\google_logo.svg" alt="Google Logo">
+            </div>
+            <form class=search action="https://www.google.com/search">
+                <input type="text" class="in_field" placeholder="Search Google or type a URL" name="q">
+                <ul class="btns">
+                    <li><input type="submit"  value="Submit"></li>
+                    <li><input type="submit" name ="btnI" value="I'm feeling lucky"></li>
+                </ul>
+            </form>
+
         </div>
-        <form class=search>
-            <input type="text" placeholder="Search Google or type a URL" name="search" class="in_field" >
-            <input type="submit"  value="Submit" class="submit">
-        </form>
-    
-            
-
         
-    </div>
-     
-   
-
-
-    
-</body>
+    </body>
 </html>
