@@ -36,19 +36,24 @@ html, body {
     font-size:85.2%;
   }
 
-  li:first-child{
+   .navigation li:first-child{
     margin-right: 5%;
   }
 
-  li:nth-child(2) {
+   .navigation li:nth-child(2) {
     margin-right:3%;
   }
+
+   .btns li:first-child {
+    margin-right:3%;
+
+   }
+
 
   #logo {
     position:relative;
     top:22%;
-    margin-right:auto;
-    margin-right:auto;
+    margin:auto;
   }
 
  .logo {
@@ -59,16 +64,17 @@ html, body {
   .search {
     position:relative;
     top:27%;
-    
+    margin:auto;
   }
 
   .in_field {
     display:block;
-    width:50%;
+    width:60%;
+    min-width: 300px;
+    max-width: 500px;
     height:3em;
     padding-left:4em;
-    margin-left:auto;
-    margin-right:auto;
+    margin:auto;
     border-radius: 2em; 
     font-size: 1em; 
     border: 1px solid lightgray; 
@@ -85,9 +91,7 @@ html, body {
 
   }
  
-
-
-  .submit{
+ .img-submit{
     display:block;
     margin-top:3em;
     margin-left:auto;
